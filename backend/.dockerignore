@@ -1,0 +1,41 @@
+# Ignore common unnecessary files
+.git
+.gitignore
+README.md
+Dockerfile
+docker-compose.yml
+docker/
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore environment files (sensitive data)
+.env
+.env.local
+.env.production
+
+# Ignore local caches and logs
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# Ignore OS-specific and temporary files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore Composer cache
+composer.lock
+/composer.phar
+
+# Ignore build artifacts and unnecessary binaries
+*.tar.gz
+*.zip
+*.log
+*.bak
+*.tmp

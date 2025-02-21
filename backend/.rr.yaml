@@ -1,0 +1,9 @@
+grpc:
+  listen: "tcp://0.0.0.0:9001"
+  proto: "./proto/service.proto"
+  max_recv_msg_size: 10485760  # 10MB
+  max_send_msg_size: 10485760  # 10MB
+  workers:
+    command: "php worker.php"
+    pool:
+      numWorkers: 4
