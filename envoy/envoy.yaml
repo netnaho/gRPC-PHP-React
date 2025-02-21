@@ -47,7 +47,7 @@ static_resources:
               - endpoint:
                   address:
                     socket_address:
-                      address: 172.21.242.153
+                      address: backend
                       port_value: 9001
 admin:
   access_log_path: "/tmp/admin_access.log"
