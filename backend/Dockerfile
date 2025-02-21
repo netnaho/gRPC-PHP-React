@@ -51,7 +51,7 @@ WORKDIR /app
 COPY . .
 
 # Install PHP dependencies
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install --optimize-autoloader
 
 # Generate protobuf classes
 # RUN mkdir -p generated \
